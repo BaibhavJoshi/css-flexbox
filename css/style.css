@@ -6,4 +6,118 @@
 
 body {
     font-family: sans-serif;
+    background-color: #F4F0E7;
+}
+
+.header img {
+    width: 50%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5px 30px;
+}
+
+h1,
+h2 {
+    margin: 10px 0px;
+}
+
+.nav-bar .logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-bar .container ul a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-bar {
+    background-color: #E2D9CA;
+    padding: 20px 0px;
+}
+
+.nav-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar .container ul {
+    list-style: none;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-bar .container ul a {
+    padding: 10px;
+}
+
+.nav-bar a:hover {
+    background-color: #A8522D;
+    color: white;
+    border-radius: 4px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header .container .text-content {
+    padding: 10px;
+    margin: 10px;
+}
+
+.header .container img {
+    max-width: 500px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .container .card {
+    background-color: #E2D9CA;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.cards i {
+    margin-right: 12px;
+}
+
+@media(max-width: 900px) {
+
+    .header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .cards .container {
+        display: block;
+        text-align: center;
+    }
+
 }
